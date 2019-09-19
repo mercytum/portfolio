@@ -1,0 +1,420 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+/* 
+.maim{
+    margin: 0 10%;
+} */
+
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 80px;
+}
+
+nav ul {
+    width: fit-content;
+    margin: 0 auto;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 30px;
+    
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#page1{
+    /* background-image: url("/images/me.jpg"), url("images/bg.jpg") ;
+    background-position: right;
+    background-size: auto;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat, repeat; */
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: 800px;
+    float: left;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    background-image: url("/images/bg.jpg");
+    width: 50%;
+    
+}
+
+.left h1 {
+    font-family: "Raleway";
+    line-height: 1.2;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+    text-align: center;
+    margin-top: 250px;
+}
+
+hr {
+    width: 50%;
+    margin-top: 3%;
+    background-color: #62acb5;
+    border: .1rem solid #62acb5;
+}
+
+ .left h2 {
+    font-family: "Raleway";
+    line-height: 1.2;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 50px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+
+.decorated::before,
+.decorated::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #62acb5;
+    width: 25%;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+
+.right{
+    width: 50%;
+    margin: 0%;
+    /* background-color: #f2f2f2;  */
+}
+
+.right img{
+    height: 650px;
+    align-self: right;
+}
+
+#page2{
+    background: #eee;    
+    height: auto; 
+}
+
+
+h1 span{
+    margin-top: 1%;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #62acb5;
+
+}
+
+#page2 {
+    height: auto;
+}
+
+#page2 h1 {
+    text-align: center;
+}
+
+.page2{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.profile_left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.profile_left h2{
+    width: 100%;
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #62acb5;
+}
+
+.profile_left h3 {
+    width: 100%;
+}
+
+.profile_left p {
+    width: 100%;
+}
+
+.vision {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3%;
+    font-weight: 300;
+    color: black;
+}
+
+
+ .social_icons li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li img {
+    width:35px;
+    height:35px;
+    margin-right: 10px;
+}
+
+.profile_center {
+    width: 40%;
+}
+
+.profile_right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.profile_right h2{
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: 400;
+    text-align: left;
+    color: #62acb5;
+    margin-bottom: 5%;
+}
+
+.profile_right p {
+    text-align: left;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.donate{
+    text-align: center;
+}
+
+.donate p {
+    margin-bottom: 1%;
+}
+
+.donate button{
+    background-color: #daa45c;
+    border-radius: 15px;
+    font-size: 1em;
+    padding: 0 5px;
+    margin-bottom: 1%;
+}
+
+#page3{
+    background: #333;  
+    height: auto;  
+}
+
+#page3 h1 {
+    text-align: center;
+}
+
+.experience {
+    margin-left: 5%;
+}
+
+.experience img{
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+}
+
+.experience h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #62acb5;
+}
+
+.experience1 {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.time {
+    /* background-color: green; */
+    width: 30%;
+    margin-right: 0%;
+}
+
+.time h3 {
+    margin-bottom: 1%;
+}
+
+.award {
+    display: flex;
+    width: 50%;
+    margin-left: 0%;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.award p {
+    margin: 0;
+    padding: 0;
+}
+
+.award ul {
+    margin-left: 5%;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.link img{
+    width: 32px;
+    height: 32px;
+}
+
+.link a {
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    align-self: center;
+    margin-left: 1%;
+    /* background-color: pink; */
+    color: #62acb5;
+}
+
+#page4{
+    background-color: #eee;  
+    height: auto; 
+    color: black;
+  
+}
+
+#page4 h1 {
+    text-align: center;
+}
+
+.abilities_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.skills {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.skills1 {
+    width: 50%;
+    margin-right: 20%;
+}
+
+.skills1 img {
+
+    display: block;
+}
+
+.rate {
+    display: flex;
+    flex-direction: row;
+}
+
+.rate_title {
+    width: 50%;
+    margin-top: 2%;
+    color: #62acb5;
+}
+
+.rate_star {
+    width: 50%;
+    margin-top: 2%;
+    margin-right: 0%;
+}
+
+.checked {
+    color: #daa45c;
+}
+
+.tools {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 0%;
+}
+
+.tools1 {
+    width: 50%;
+    margin-right: 20%;
+    margin-left: 0%;
+
+}
+
+.tools1 img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.abilities_main button {
+    background-color: #daa45c;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0 5px;
+    margin-bottom: 1%;
+}
+
+#page5{
+    background-color: #333;    
+    color: #fff;
+    height: auto;
+}
+
+#page5 h1 {
+    text-align: center;
+
+}
+
+#page6{
+    background: purple;
+    
