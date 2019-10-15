@@ -23,13 +23,13 @@ nav ul {
 nav ul li {
     float: left;
     margin-right: 30px;
-    color: daa45c;
+    color: #daa45c;
         
     
 }
 
 nav ul li a{
-    color: #fff;
+    color: #daa45c;
     text-decoration: none;
 }
 
