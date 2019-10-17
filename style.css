@@ -689,3 +689,1830 @@ ul li img {
     width: 150px;
     height: 150px;
 }
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+     *{width: 100%;}
+    body{width: 100%}
+    .main{width: 100%;}
+    nav{
+        width:100%;
+        position:fixed;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        top: 40px;
+      }
+  
+      nav ul {
+          width: 100%;
+          margin: 0;   
+          padding: 0;     
+      }
+     ul{
+         display: flex;
+         width: 10%;
+         font-size: 1.3em;
+         margin: 0px;
+         padding: 0;
+      }
+     nav ul li{
+          padding: 0;
+          margin-bottom: 30px;
+      } 
+  
+    #page1{font-size: 1.4em;}
+    
+  
+      #page2 {font-size: 1.6em;}
+      #page2 .quote{font-size: 0.9em;}
+    .decorated{font-size: 1.3em;}
+    .vision{font-size: 0.8em; font-style: italic;}
+
+    .page2{
+        width:100%;
+        
+      }
+  
+    .profile_left{
+        font-size: 0.7em;
+        margin: 0;
+        width: 35%;
+        text-align: center;
+    }
+  
+    .profile_left h2 {
+        text-align: center;
+    }
+
+    .social_icons{
+        text-align: center;
+        width: 100%;
+    }
+    .profile_center{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .profile_right{
+        font-size: 0.7em;
+        margin: 0;
+        width: 35%;
+        height: auto;
+        align-content: center;
+    }
+  
+    .profile_right h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .profile_right h2 + p{
+        width: 90%;
+        text-align: center;
+        margin: 10pxpx;
+    }
+  
+    .donate{
+        font-size: 0.7em;
+        margin-top: 20px;
+    }
+  
+    .donate button {width: 80px; height: 30px;}
+  
+    .decorated::before,
+  .decorated::after {
+      display: inline-block;
+      content: "";
+      border-top: .2rem solid #62acb5;
+      width: 20%;
+      margin: 0 1rem;
+      transform: translateY(-1rem);
+  }
+  .quote{font-size: 0.8em;}
+
+    #page3 .decorated {font-size: 1.1em}
+    #page3 {
+        font-size: 1.8em;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .experience {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .experience h2{font-size: 1.3em;}
+  
+    .experience1{
+        background-color:rgba(238,238,238,0.1);
+        width: 100%;
+        margin:0;
+    }
+    .time{
+      font-size: 0.7em;
+        margin: 5px;
+        width: 50%;
+        text-align: left;
+        text-align: center;
+    }
+  
+    .award{
+        font-size: 0.6em;
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+  
+    .award ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .award ul li {
+        margin-right: 150px;
+        width: 100%;
+    }
+  
+    .link {
+        width: 100%;
+        text-align: center;
+      }
+      .link a {
+          width: 50%;
+      }
+  
+    .link img{
+        float: right;
+        text-align: right;
+        margin-right: -5px;
+      }
+
+      #page4{font-size: 1.2em;}
+  
+      #page4 .decorated{font-size: 1.7em;}
+
+      #page4 .quote{font-size: 1.2em;}
+
+      .abilities_main{
+      }
+
+      .abilities{
+          width: 100%;
+      }
+
+      .skills{
+          width: 100%;
+          margin-left: 10%;
+      }
+
+      .skills1{
+          width: 100%;
+          margin-right: 10%;
+      }
+
+      .skills1 img{
+          width: 190px;
+          height: 190px;
+      }
+  
+     
+     .tools{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .tools1{
+        width: 100%;
+        margin-right: 10%;
+    }
+
+    .tools1 img{
+        width: 150px;
+        height: 150px;
+    }
+
+   .rate_star{
+       display: flex;
+       flex-direction: row;
+   }
+
+   .abilities_main a{
+       width: 100%;
+       text-align: center;
+       margin: 0;
+   }
+
+   .abilities_main button{
+       width: 250px;
+       height: 30px;
+       margin: 0;
+   }
+
+
+      #page5{font-size: 1.3em;}
+      #page5 .quote{font-size: 1.1em;}
+      #page5 .decorated{font-size: 1.2em;}
+      #page5 .decorated::before,
+      #page5 .decorated::after {
+          display: inline-block;
+          content: "";
+          border-top: .2rem solid #62acb5;
+          width: 12%;
+          margin: 0 1rem;
+          transform: translateY(-0.5rem);
+      }
+  
+      .projects{
+          text-align: center;
+      }
+  
+      .projects img{
+          width: 100%;
+          height: 100%;
+      }
+
+      .projects_left{
+          width: 100%;
+          margin: 0px;
+      }
+  
+      .projects_right{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .left_btn{
+          width: 150px;
+          margin-right: -190px;
+      }
+  
+      .right_btn{
+          width: 150px;
+          margin-left: -190px;
+      }
+
+      #page6 {font-size: 1.3em;}
+      #page6 .decorated{font-size: 1.6em;}
+      #page6 .quote{font-size: 1.1em;}
+  
+   
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  
+   *{width: 100%;}
+    body{width: 100%}
+    .main{width: 100%;}
+    nav{
+        width:100%;
+        position:fixed;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        top: 40px;
+        background-color: pink;
+      }
+  
+      nav ul {
+          width: 100%;
+          margin: 0;   
+          padding: 0; 
+          background-color: pink;    
+      }
+     ul{
+         display: flex;
+         width: 10%;
+         font-size: 1.1em;
+         margin: 0px;
+         padding: 0;
+         background-color: pink;
+      }
+     nav ul li{
+          padding: 0;
+          margin-bottom: 30px;
+          background-color: pink;
+      } 
+  
+    #page1{font-size: 1.4em;}
+    
+  
+      #page2 {font-size: 1.3em;}
+      #page2 .quote{font-size: 0.9em;}
+    .decorated{font-size: 1.3em;}
+    .vision{font-size: 0.8em; font-style: italic;}
+  
+    .page2{
+        width:100%;
+        
+      }
+  
+    .profile_left{
+        font-size: 0.7em;
+        margin: 0;
+        width: 35%;
+        text-align: center;
+    }
+  
+    .profile_left h2 {
+        text-align: center;
+    }
+
+    .social_icons{
+        text-align: center;
+        width: 100%;
+    }
+    .profile_center{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .profile_right{
+        font-size: 0.7em;
+        margin: 0;
+        width: 35%;
+        height: auto;
+        align-content: center;
+    }
+  
+    .profile_right h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .profile_right h2 + p{
+        width: 90%;
+        text-align: center;
+        margin: 10pxpx;
+    }
+  
+    .donate{
+        font-size: 0.7em;
+        margin-top: 20px;
+    }
+  
+    .donate button {width: 80px; height: 30px;}
+  
+    .decorated::before,
+  .decorated::after {
+      display: inline-block;
+      content: "";
+      border-top: .2rem solid #62acb5;
+      width: 20%;
+      margin: 0 1rem;
+      transform: translateY(-1rem);
+  }
+  .quote{font-size: 0.8em;}
+  
+    #page3 .decorated {font-size: 1.1em}
+    #page3 {
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .experience {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .experience h2{font-size: 1.3em;}
+  
+    .experience1{
+        background-color:rgba(238,238,238,0.1);
+        width: 100%;
+        margin:0;
+    }
+    .time{
+      font-size: 0.7em;
+        margin: 5px;
+        width: 50%;
+        text-align: left;
+        text-align: center;
+    }
+  
+    .award{
+        font-size: 0.6em;
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+  
+    .award ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .award ul li {
+        margin-right: 150px;
+        width: 100%;
+    }
+  
+    .link {
+        width: 100%;
+        text-align: center;
+      }
+      .link a {
+          width: 50%;
+      }
+  
+    .link img{
+        float: right;
+        text-align: right;
+        margin-right: -5px;
+      }
+
+      #page4{font-size: 1em;}
+  
+      #page4 .decorated{font-size: 1.7em;}
+
+      #page4 .quote{font-size: 1.1em;}
+
+      .abilities_main{
+      }
+
+      .abilities{
+          width: 100%;
+      }
+
+      .skills{
+          width: 100%;
+          margin-left: 10%;
+      }
+
+      .skills1{
+          width: 100%;
+          margin-right: 10%;
+      }
+
+      .skills1 img{
+          width: 190px;
+          height: 190px;
+      }
+  
+     
+     .tools{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .tools1{
+        width: 100%;
+        margin-right: 10%;
+    }
+
+    .tools1 img{
+        width: 150px;
+        height: 150px;
+    }
+
+   .rate_star{
+       display: flex;
+       flex-direction: row;
+   }
+
+   .abilities_main a{
+       width: 100%;
+       text-align: center;
+       margin: 0;
+   }
+
+   .abilities_main button{
+       width: 180px;
+       height: 30px;
+       margin: 0;
+   }
+
+
+      #page5{font-size: 1.3em;}
+      #page5 .quote{font-size: 0.9em;}
+      #page5 .decorated{font-size: 1.1em;}
+      #page5 .decorated::before,
+      #page5 .decorated::after {
+          display: inline-block;
+          content: "";
+          border-top: .2rem solid #62acb5;
+          width: 12%;
+          margin: 0 1rem;
+          transform: translateY(-0.5rem);
+      }
+  
+      .projects{
+          
+          text-align: center;
+      }
+  
+      .projects img{
+          width: 100%;
+          height: 100%;
+      }
+
+      .projects_left{
+          width: 100%;
+          margin: 0px;
+      }
+  
+      .projects_right{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .left_btn{
+          size: 150%;
+          width: 150px;
+          margin-right: -25px;
+      }
+  
+      .right_btn{
+          width: 150px;
+          margin-left: -25px;
+      }
+  
+      #page6 {font-size: 1.1em;}
+      #page6 .decorated{font-size: 1.5em;}
+      #page6 .quote{font-size: 1.1em;}
+  
+   
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+    *{width: 100%;}
+    body{width: 100%}
+    .main{width: 100%;}
+    nav{
+        width:100%;
+        position:fixed;
+        display: flex;
+        flex-direction: row;
+        top: 40px;
+      }
+  
+      nav ul {
+          width: 100%;
+          margin: 0;   
+          padding: 0;     
+      }
+     ul{
+         display: flex;
+         width: 100%;
+         font-size: 1.1em;
+         margin: 0px;
+         padding: 0;
+      }
+     nav ul li{
+          padding: 0;
+          margin-right: 9px;
+          margin-left: 9px;
+          margin-bottom: 30px;
+      }
+  
+    /* .left{display: none;} */
+    #page1{font-size: 1.4em;}
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro div:nth-child(1) {
+      order: 1;
+  }
+      .left {
+          width: 100%;
+          height: 100%;
+          margin-top: -60px;
+          padding: 0;
+          margin-bottom: 0px;
+      }
+  
+      .left h1 {
+          margin: 0;
+          font-size: 1.3em;
+      }
+  
+      .left h2 {
+          margin-top: 10px;
+          margin-bottom: 0;
+          font-size: 2em;
+      }
+  
+  
+    .right{
+        width: 100%;
+        height: 100%;
+      }
+      .right img{
+          height: 100%;
+      }
+      #page2 {font-size: 1.2em;}
+      #page2 .quote{font-size: 0.9em;}
+    .decorated{font-size: 1.3em;}
+    .vision{font-size: 0.8em; font-style: italic;}
+  
+    .page2{
+        width:100%;
+        display: flex;
+        height: 650px;
+        flex-direction: column;
+      }
+  
+      .page2 div:nth-child(2) {
+          order: 1;
+      }
+      .page2 div:first-child {
+          order: 2;
+      }
+  
+  
+    .profile_left{
+        font-size: 0.7em;
+        margin: 0;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .profile_left h2 {
+        text-align: center;
+    }
+
+    .social_icons{
+    }
+    .profile_center{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .profile_right{
+        font-size: 0.7em;
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        align-content: center;
+    }
+  
+    .profile_right h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .profile_right h2 + p{
+        width: 90%;
+        text-align: center;
+        margin: 10pxpx;
+    }
+  
+    .donate{
+        font-size: 0.7em;
+        margin-top: 220px;
+    }
+  
+    .donate button {width: 80px; height: 30px;}
+  
+    .decorated::before,
+  .decorated::after {
+      display: inline-block;
+      content: "";
+      border-top: .2rem solid #62acb5;
+      width: 18%;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+  }
+  .quote{font-size: 0.8em;}
+    #page3 .decorated {font-size: 1em}
+    #page3 {
+        font-size: 1.4em;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .experience {
+        width: 100%;
+        margin: 0 auto;}
+  
+    .experience1{
+        background-color:rgba(238,238,238,0.1);
+        width: 100%;
+        margin:0;
+    }
+    .time{
+      font-size: 0.7em;
+        margin: 5px;
+        width: 50%;
+        text-align: left;
+        text-align: center;
+    }
+  
+    .award{
+        font-size: 0.6em;
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+  
+    .award ul{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .link {
+        width: 100%;
+        text-align: center;
+      }
+      .link a {
+          width: 50%;
+      }
+  
+    .link img{
+        float: right;
+        text-align: right;
+        margin-right: -5px;
+      }
+  
+      #page4{font-size: 1em;}
+
+      #page4 .quote{font-size: 1.1em;}
+  
+      .abilities{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills{
+          width: 100%;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills h2{margin: 20px;}
+  
+      .rate_title{
+          margin-left: 20px;
+      }
+  
+      .rate_star{
+          margin-left: -10px;
+          display: flex;
+          flex-direction: row;
+      }
+  
+      .abilities div:nth-child(1) {
+          order:1 ;
+      }
+      .skills div:nth-child(2) {
+          order: 1;
+      }
+      .tools div:nth-child(2) {
+          order: 1;
+      }
+  
+      .skills1{
+          width: 100%;
+      }
+  
+      .skills1 img{
+          
+          width: 50%;
+      }
+  
+      .tools1{
+          width: 100%;
+      }
+      
+      .tools1 img{
+          width: 30%;
+      }
+  
+      .tools{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .tools h2{margin: 20px;}
+  
+      .abilities_main a{
+          text-align: center;
+          margin: 0;
+      }
+      .abilities_main button {
+          width: 200px;
+          height: 30px;
+          margin: 0;
+          text-align: center;
+      }
+  
+      #page5{font-size: 1.3em;}
+      #page5 .quote{font-size: 0.8em;}
+      #page5 .decorated{font-size: 0.7em;}
+      #page5 .decorated::before,
+      #page5 .decorated::after {
+          display: inline-block;
+          content: "";
+          border-top: .2rem solid #62acb5;
+          width: 12%;
+          margin: 0 1rem;
+          transform: translateY(-0.5rem);
+      }
+  
+      .projects{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .projects img{
+          width: 100%;
+          height: 100%;
+      }
+
+      .projects_left{
+          width: 100%;
+          margin: 0px;
+      }
+  
+      .projects_right{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .left_btn{
+          size: 150%;
+          width: 150px;
+          margin-right: -125px;
+      }
+  
+      .right_btn{
+          width: 150px;
+          margin-left: -125px;
+      }
+  
+      #page6 {font-size: 1em;}
+      #page6 .quote{font-size: 1.1em;}
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+  Should make changes to this
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  
+    *{width: 100%;}
+    body{width: 100%}
+    .main{width: 100%;}
+    nav{
+        width:100%;
+        position:fixed;
+        display: flex;
+        flex-direction: row;
+        top: 40px;
+      }
+  
+      nav ul {
+          width: 100%;
+          margin: 0;   
+          padding: 0;     
+      }
+     ul{
+         display: flex;
+         width: 100%;
+         font-size: 12px;
+         margin: 0px;
+         padding: 0;
+      }
+     nav ul li{
+          padding: 0;
+          margin-right: 9px;
+          margin-left: 9px;
+          margin-bottom: 30px;
+      }
+  
+    /* .left{display: none;} */
+    #page1{font-size: 0.9em;}
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro div:nth-child(1) {
+      order: 1;
+  }
+      .left {
+          width: 100%;
+          height: 100%;
+          margin-top: -25px;
+          padding: 0;
+          margin-bottom: 0px;
+      }
+  
+      .left h1 {
+          margin: 0;
+          font-size: 1.3em;
+      }
+  
+      .left h2 {
+          margin: 3;
+          font-size: 2em;
+      }
+  
+  
+    .right{
+        width: 100%;
+        height: 100%;
+      }
+      .right img{
+          height: 100%;
+      }
+      #page2 {font-size: 1.2em;}
+      #page2 .quote{font-size: 0.8em;}
+    .decorated{font-size: 1.2em;}
+    .vision{font-size: 0.8em; font-style: italic;}
+  
+    .page2{
+        width:100%;
+        display: flex;
+        height: 650px;
+        flex-direction: column;
+      }
+  
+      .page2 div:nth-child(2) {
+          order: 1;
+      }
+      .page2 div:first-child {
+          order: 2;
+      }
+  
+  
+    .profile_left{
+        font-size: 0.7em;
+        margin: 0;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .profile_left h2 {
+        text-align: center;
+    }
+
+    .social_icons{
+    }
+    .profile_center{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .profile_right{
+        font-size: 0.7em;
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        align-content: center;
+    }
+  
+    .profile_right h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .profile_right h2 + p{
+        width: 90%;
+        text-align: center;
+        margin: 10pxpx;
+    }
+  
+    .donate{
+        font-size: 0.7em;
+        margin-top: 70px;
+    }
+  
+    .donate button {width: 80px; height: 30px;}
+  
+    .decorated::before,
+  .decorated::after {
+      display: inline-block;
+      content: "";
+      border-top: .2rem solid #62acb5;
+      width: 18%;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+  }
+  .quote{font-size: 0.7em;}
+    #page3 .decorated {font-size: 1em}
+    #page3 {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .experience {
+        width: 100%;
+        margin: 0 auto;}
+  
+    .experience1{
+        background-color:rgba(238,238,238,0.1);
+        width: 100%;
+        margin:0;
+    }
+    .time{
+      font-size: 0.7em;
+        margin: 5px;
+        width: 50%;
+        text-align: left;
+        text-align: center;
+    }
+  
+    .award{
+        font-size: 0.6em;
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+  
+    .award ul{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .link {
+        width: 100%;
+        text-align: center;
+      }
+      .link a {
+          width: 50%;
+      }
+  
+    .link img{
+        float: right;
+        text-align: right;
+        margin-right: -5px;
+      }
+  
+      #page4{font-size: 0.9em;}
+
+      #page4 .quote{font-size: 1em;}
+  
+      .abilities{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills{
+          width: 100%;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills h2{margin: 20px;}
+  
+      .rate_title{
+          margin-left: 20px;
+      }
+  
+      .rate_star{
+          margin-left: -10px;
+          display: flex;
+          flex-direction: row;
+      }
+  
+      .abilities div:nth-child(1) {
+          order:1 ;
+      }
+      .skills div:nth-child(2) {
+          order: 1;
+      }
+      .tools div:nth-child(2) {
+          order: 1;
+      }
+  
+      .skills1{
+          width: 100%;
+      }
+  
+      .skills1 img{
+          
+          width: 50%;
+      }
+  
+      .tools1{
+          width: 100%;
+      }
+      
+      .tools1 img{
+          width: 30%;
+      }
+  
+      .tools{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .tools h2{margin: 20px;}
+  
+      .abilities_main a{
+          text-align: center;
+          margin: 0;
+      }
+      .abilities_main button {
+          width: 200px;
+          height: 30px;
+          margin: 0;
+          text-align: center;
+      }
+  
+      #page5{font-size: 1.1em;}
+      #page5 .quote{font-size: 0.8em;}
+      #page5 .decorated{font-size: 0.7em;}
+      #page5 .decorated::before,
+      #page5 .decorated::after {
+          display: inline-block;
+          content: "";
+          border-top: .2rem solid #62acb5;
+          width: 12%;
+          margin: 0 1rem;
+          transform: translateY(-0.5rem);
+      }
+  
+      .projects{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .projects img{
+          width: 300px;
+          height: 300px;
+          margin: 0;
+      }
+  
+      .projects_left{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .projects_right{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .left_btn{
+      }
+  
+      .right_btn{
+          margin-left: -25px;
+      }
+  
+      #page6 {font-size: 0.9em;}
+      #page6 .quote{font-size: 1em;}
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    *{width: 100%;}
+    body{width: 100%}
+    .main{width: 100%;}
+    nav{
+        width:100%;
+        position:fixed;
+        display: flex;
+        flex-direction: row;
+        top: 40px;
+      }
+  
+      nav ul {
+          width: 100%;
+          margin: 0;   
+          padding: 0;     
+      }
+     ul{
+         display: flex;
+         width: 100%;
+         font-size: 12px;
+         margin: 0px;
+         padding: 0;
+      }
+     nav ul li{
+          padding: 0;
+          margin-right: 9px;
+          margin-left: 9px;
+          margin-bottom: 30px;
+      }
+  
+    /* .left{display: none;} */
+    #page1{font-size: 0.9em;}
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro div:nth-child(1) {
+      order: 1;
+  }
+      .left {
+          width: 100%;
+          height: 100%;
+          margin-top: -25px;
+          padding: 0;
+          margin-bottom: 0px;
+      }
+  
+      .left h1 {
+          margin: 0;
+          font-size: 1.3em;
+      }
+  
+      .left h2 {
+          margin: 3;
+          font-size: 2em;
+      }
+  
+  
+    .right{
+        width: 100%;
+        height: 100%;
+      }
+      .right img{
+          height: 100%;
+      }
+      #page2 {font-size: 1.2em;}
+      #page2 .quote{font-size: 0.8em;}
+    .decorated{font-size: 1.2em;}
+    .vision{font-size: 0.8em; font-style: italic;}
+  
+    .page2{
+        width:100%;
+        display: flex;
+        height: 650px;
+        flex-direction: column;
+      }
+  
+      .page2 div:nth-child(2) {
+          order: 1;
+      }
+      .page2 div:first-child {
+          order: 2;
+      }
+  
+  
+    .profile_left{
+        font-size: 0.7em;
+        margin: 0;
+        height: 300px;
+        width: 100%;
+        text-align: center;
+    }
+  
+    .profile_left h2 {
+        text-align: center;
+    }
+
+    .social_icons{
+    }
+    .profile_center{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .profile_right{
+        font-size: 0.7em;
+        margin: 0;
+        width: 100%;
+        height: 150px;
+        align-content: center;
+    }
+  
+    .profile_right h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .profile_right h2 + p{
+        width: 90%;
+        text-align: center;
+        margin: 10pxpx;
+    }
+  
+    .donate{
+        font-size: 0.7em;
+        margin-top: 70px;
+    }
+  
+    .donate button {width: 80px; height: 30px;}
+  
+    .decorated::before,
+  .decorated::after {
+      display: inline-block;
+      content: "";
+      border-top: .2rem solid #62acb5;
+      width: 18%;
+      margin: 0 1rem;
+      transform: translateY(-0.5rem);
+  }
+  .quote{font-size: 0.7em;}
+    #page3 .decorated {font-size: 1em}
+    #page3 {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .experience {
+        width: 100%;
+        margin: 0 auto;}
+  
+    .experience1{
+        background-color:rgba(238,238,238,0.1);
+        width: 100%;
+        margin:0;
+    }
+    .time{
+      font-size: 0.7em;
+        margin: 5px;
+        width: 50%;
+        text-align: left;
+        text-align: center;
+    }
+  
+    .award{
+        font-size: 0.6em;
+        width: 50%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+  
+    .award ul{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .link {
+        width: 100%;
+        text-align: center;
+      }
+      .link a {
+          width: 50%;
+      }
+  
+    .link img{
+        float: right;
+        text-align: right;
+        margin-right: -5px;
+      }
+  
+      #page4{font-size: 0.9em;}
+
+      #page4 .quote{font-size: 1em;}
+  
+      .abilities{
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills{
+          width: 100%;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+      }
+  
+      .skills h2{margin: 20px;}
+  
+      .rate_title{
+          margin-left: 20px;
+      }
+  
+      .rate_star{
+          margin-left: -10px;
+          display: flex;
+          flex-direction: row;
+      }
+  
+      .abilities div:nth-child(1) {
+          order:1 ;
+      }
+      .skills div:nth-child(2) {
+          order: 1;
+      }
+      .tools div:nth-child(2) {
+          order: 1;
+      }
+  
+      .skills1{
+          width: 100%;
+      }
+  
+      .skills1 img{
+          
+          width: 50%;
+      }
+  
+      .tools1{
+          width: 100%;
+      }
+      
+      .tools1 img{
+          width: 30%;
+      }
+  
+      .tools{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .tools h2{margin: 20px;}
+  
+      .abilities_main a{
+          text-align: center;
+          margin: 0;
+      }
+      .abilities_main button {
+          width: 200px;
+          height: 30px;
+          margin: 0;
+          text-align: center;
+      }
+  
+      #page5{font-size: 1.1em;}
+      #page5 .quote{font-size: 0.8em;}
+      #page5 .decorated{font-size: 0.7em;}
+      #page5 .decorated::before,
+      #page5 .decorated::after {
+          display: inline-block;
+          content: "";
+          border-top: .2rem solid #62acb5;
+          width: 12%;
+          margin: 0 1rem;
+          transform: translateY(-0.5rem);
+      }
+  
+      .projects{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      }
+  
+      .projects img{
+          width: 300px;
+          height: 300px;
+          margin: 0;
+      }
+  
+      .projects_left{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .projects_right{
+          width: 100%;
+          margin: 0;
+      }
+  
+      .left_btn{
+      }
+  
+      .right_btn{
+          margin-left: -25px;
+      }
+  
+      #page6 {font-size: 0.9em;}
+      #page6 .quote{font-size: 1em;}
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  *{width: 100%;}
+  body{width: 100%}
+  .main{width: 100%;}
+  nav{
+      width:100%;
+      position:fixed;
+      display: flex;
+      flex-direction: row;
+      top: 40px;
+    }
+
+    nav ul {
+        width: 100%;
+        margin: 0;   
+        padding: 0;     
+    }
+   ul{
+       display: flex;
+       width: 100%;
+       font-size: 12px;
+       margin: 0px;
+       padding: 0;
+    }
+   nav ul li{
+        padding: 0;
+        margin-right: 9px;
+        margin-left: 9px;
+        margin-bottom: 30px;
+    }
+
+  /* .left{display: none;} */
+  #page1{font-size: 0.9em;}
+  .intro{
+      display: flex;
+      flex-direction: column;
+  }
+  .intro div:nth-child(1) {
+    order: 1;
+}
+    .left {
+        width: 100%;
+        height: 100%;
+        margin-top: -25px;
+        padding: 0;
+        margin-bottom: 0px;
+    }
+
+    .left h1 {
+        margin: 0;
+        font-size: 1.3em;
+    }
+
+    .left h2 {
+        margin: 3;
+        font-size: 2em;
+    }
+
+
+  .right{
+      width: 100%;
+      height: 100%;
+    }
+    .right img{
+        height: 100%;
+    }
+
+  .decorated{font-size: 0.9em;}
+ #page2 .vision{font-size: 0.9em; font-style: italic;}
+#page2 {font-size: 0.9em;}
+  .page2{
+      width:100%;
+      display: flex;
+      height: 650px;
+      flex-direction: column;
+    }
+
+    .page2 div:nth-child(2) {
+        order: 1;
+    }
+    .page2 div:first-child {
+        order: 2;
+    }
+
+
+  .profile_left{
+      font-size: 0.7em;
+      margin: 0;
+      height: 300px;
+      width: 100%;
+      text-align: center;
+  }
+
+  .profile_left h2 {text-align: center;}
+  .profile_center{
+      width: 50%;
+      margin: 0 auto;
+  }
+  .profile_right{
+      font-size: 0.7em;
+      margin: 0;
+      width: 100%;
+      height: 150px;
+      align-content: center;
+  }
+
+  .profile_right h2 {
+      width: 100%;
+      text-align: center;
+  }
+  .profile_right h2 + p{
+      width: 90%;
+      text-align: center;
+      margin: 10pxpx;
+  }
+
+  .donate{font-size: 0.7em;}
+
+  .donate button {width: 80px; height: 30px;}
+
+  .decorated::before,
+.decorated::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #62acb5;
+    width: 18%;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+}
+.quote{font-size: 0.9em;}
+  #page3 .decorated {font-size: 1em}
+  #page3 {
+      font-size: 0.9em;
+      margin: 0;
+      padding: 0;
+  }
+
+  .experience {
+      width: 100%;
+      margin: 0 auto;}
+
+  .experience1{
+      background-color:rgba(238,238,238,0.1);
+      width: 100%;
+      margin:0;
+  }
+  .time{
+    font-size: 0.7em;
+      margin: 5px;
+      width: 50%;
+      text-align: left;
+      text-align: center;
+  }
+
+  .award{
+      font-size: 0.6em;
+      width: 50%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      margin-right: 5px;
+      margin-left: 5px;
+      margin-top: -5px;
+  }
+
+  .award ul{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .link {
+      width: 100%;
+      text-align: center;
+    }
+    .link a {
+        width: 50%;
+    }
+
+  .link img{
+      float: right;
+      text-align: right;
+      margin-right: -5px;
+    }
+
+    #page4{font-size: 0.9em;}
+
+    .abilities{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills h2{margin: 20px;}
+
+    .rate_title{
+        margin-left: 20px;
+    }
+
+    .rate_star{
+        margin-left: -10px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .abilities div:nth-child(1) {
+        order:1 ;
+    }
+    .skills div:nth-child(2) {
+        order: 1;
+    }
+    .tools div:nth-child(2) {
+        order: 1;
+    }
+
+    .skills1{
+        width: 100%;
+    }
+
+    .skills1 img{
+        
+        width: 50%;
+    }
+
+    .tools1{
+        width: 100%;
+    }
+    
+    .tools1 img{
+        width: 30%;
+    }
+
+    .tools{
+        width: 100%;
+        margin: 0;
+    }
+
+    .tools h2{margin: 20px;}
+
+    .abilities_main a{
+        text-align: center;
+        margin: 0;
+    }
+    .abilities_main button {
+        width: 200px;
+        height: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    #page5{font-size: 0.9em;}
+    #page5 .decorated{font-size: 0.7em;}
+    #page5 .decorated::before,
+    #page5 .decorated::after {
+        display: inline-block;
+        content: "";
+        border-top: .2rem solid #62acb5;
+        width: 12%;
+        margin: 0 1rem;
+        transform: translateY(-0.5rem);
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects img{
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .projects_left{
+        width: 100%;
+        margin: 0;
+    }
+
+    .projects_right{
+        width: 100%;
+        margin: 0;
+    }
+
+    .left_btn{
+        margin-right: -15px;
+    }
+
+    .right_btn{
+        margin: 0;
+    }
+
+    #page6 {font-size: 0.9em;}
+
+}
