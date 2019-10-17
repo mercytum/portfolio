@@ -982,14 +982,12 @@ ul li img {
         display: flex;
         flex-direction: row;
         top: 40px;
-        background-color: pink;
       }
   
       nav ul {
           width: 100%;
           margin: 0;   
           padding: 0; 
-          background-color: pink;    
       }
      ul{
          display: flex;
@@ -997,12 +995,10 @@ ul li img {
          font-size: 1.1em;
          margin: 0px;
          padding: 0;
-         background-color: pink;
       }
      nav ul li{
           padding: 0;
           margin-bottom: 30px;
-          background-color: pink;
       } 
   
     #page1{font-size: 1.4em;}
